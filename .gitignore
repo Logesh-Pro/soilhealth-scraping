@@ -1,0 +1,40 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw portal/browser artifacts
+site_bundle.js
+index.js
+portal.html
+school_progress_2026-27.json
+
+# Individual SHC report / potentially identifying data
+sample_soil_health_report.html
+numeric_shc_clean.csv
+numeric_shc_master.csv
+numeric_soil_measurements.csv
+
+# IoT work — separate future phase
+iot_data_template.csv
+create_iot_template.py
+inspect_sensor_doc.py
+
+# Intermediate test/debug files
+chennai_blocks.json
+chennai_nutrients.json
+chennai_rkvy_nutrients.json
+coimbatore_rkvy_raw.json
+kosapur_tests.json
+nutrient_count_false.json
+nutrient_test.json
+pollachi_south_villages.json
+puzhal_nutrients.json
+puzhal_villages.json
+schemes_tn.json
+
+# Local/editor files
+.env
+.env.*
+.vscode/
+.idea/
